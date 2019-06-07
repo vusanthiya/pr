@@ -3,7 +3,7 @@ def convert(n):
         return
     n1 = '' 
     n1 +=n[0].upper() 
-    for i in range(1, len(n) - 1): 
+    for i in range(1, len(n)): 
         if (n[i] == ' '): 
             n1 += n[i + 1].upper() 
             i += 1

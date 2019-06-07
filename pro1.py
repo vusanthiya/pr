@@ -1,9 +1,9 @@
 s1=list(map(str,input()))
 s2=list(map(str,input()))
-for i in range(0,len(s2)):
+for s in range(0,len(s2)):
     k=w=l=0
-    w=ord(s1[j])
-    l=ord(s2[j])
+    w=ord(s1[s])
+    l=ord(s2[s])
     k=w+l
     if k>96 and k<123:
         print(chr(k),end="")

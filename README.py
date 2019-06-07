@@ -1,2 +1,2 @@
-reverse=input("")
+reverse=input()
 print(reverse[::-1])

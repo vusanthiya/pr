@@ -1,2 +1,2 @@
-string=input()
-print(string[::-1])
+reverse=input("")
+print(reverse[::-1])
